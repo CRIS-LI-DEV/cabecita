@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
-def home(requirement):
-    return render(request,'')
+def home(request):
+    return render(request,'home.html')
 
 
 
